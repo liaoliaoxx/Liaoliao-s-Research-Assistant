@@ -1,0 +1,16 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic
+python-dotenv==1.0.1
+requests>=2.31.0
+loguru>=0.7.3
+langchain
+langchain-community
+langchain-openai
+langchain-ollama
+langgraph
+arxiv
+
+[dev]
+mypy>=1.11.1
+ruff>=0.6.1
